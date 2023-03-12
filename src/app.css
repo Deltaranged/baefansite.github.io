@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-8bit {
+    font-family: 'Retro Gaming';
+    /* font-family: 'Press Start 2P'; */
+}
+
+.font-p8bit {
+    font-family: 'Dogica Pixel';
+    /* font-family: 'Press Start 2P'; */
+}
+
+.pixel-corners {
+  clip-path: polygon(
+    0px 28px,
+    4px 28px,
+    4px 20px,
+    8px 20px,
+    8px 12px,
+    12px 12px,
+    12px 8px,
+    16px 8px,
+    20px 8px,
+    20px 4px,
+    24px 4px,
+    28px 4px,
+    28px 0px,
+    calc(100% - 28px) 0px,
+    calc(100% - 28px) 4px,
+    calc(100% - 20px) 4px,
+    calc(100% - 20px) 8px,
+    calc(100% - 12px) 8px,
+    calc(100% - 12px) 12px,
+    calc(100% - 8px) 12px,
+    calc(100% - 8px) 16px,
+    calc(100% - 8px) 20px,
+    calc(100% - 4px) 20px,
+    calc(100% - 4px) 24px,
+    calc(100% - 4px) 28px,
+    100% 28px,
+    100% calc(100% - 28px),
+    calc(100% - 4px) calc(100% - 28px),
+    calc(100% - 4px) calc(100% - 20px),
+    calc(100% - 8px) calc(100% - 20px),
+    calc(100% - 8px) calc(100% - 12px),
+    calc(100% - 12px) calc(100% - 12px),
+    calc(100% - 12px) calc(100% - 8px),
+    calc(100% - 16px) calc(100% - 8px),
+    calc(100% - 20px) calc(100% - 8px),
+    calc(100% - 20px) calc(100% - 4px),
+    calc(100% - 24px) calc(100% - 4px),
+    calc(100% - 28px) calc(100% - 4px),
+    calc(100% - 28px) 100%,
+    28px 100%,
+    28px calc(100% - 4px),
+    20px calc(100% - 4px),
+    20px calc(100% - 8px),
+    12px calc(100% - 8px),
+    12px calc(100% - 12px),
+    8px calc(100% - 12px),
+    8px calc(100% - 16px),
+    8px calc(100% - 20px),
+    4px calc(100% - 20px),
+    4px calc(100% - 24px),
+    4px calc(100% - 28px),
+    0px calc(100% - 28px)
+  );
+}
