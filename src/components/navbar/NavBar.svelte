@@ -10,7 +10,7 @@
         <ul class="flex space-x-3">
             <NavBarButton label={"Showcase"} viewportId={"fansite-showcase"} />
             <NavBarButton label={"About"} viewportId={"fansite-about"} />
-            <NavBarButton label={"Projects"} />
+            <NavBarButton label={"Projects"} viewportId={"fansite-projects"} />
         </ul>
     </div>
     <!-- <div class="sticky basis-1/3 h-full bg-red-600 border-4 border-yellow-300 ring-2 ring-black rounded-lg z-50 pixel-corners"> -->

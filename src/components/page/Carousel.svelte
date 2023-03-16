@@ -10,7 +10,7 @@
     export const getItemId = (index: number) => `carousel-item-${index}`;
 </script>
 
-<div class="top-40 relative max-w-7xl m-auto z-20">
+<div class="relative max-w-7xl mx-auto mt-6 z-20">
     <!-- <Youtube id="Ank3IdQHOuE" /> -->
     <ul class="flex overflow-x-hidden gap-6 snap-x snap-mandatory before:shrink-0 before:w-[30vw] after:shrink-0 after:w-[30vw]">
         {#each youtubeIds as yId, index}
